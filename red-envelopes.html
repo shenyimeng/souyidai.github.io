@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>红包</title>
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/myhome-left.css">
+    <link rel="stylesheet" href="css/red-envelopes.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/fold.js"></script>
+    <script src="js/myhome-right-tab.js"></script>
+    <script src="js/input-focusblur.js"></script>
+</head>
+<body>
+<!--head-->
+<div class="head">
+    <div class="head-top">
+        <div class="head-top-con">
+                <span class="welcome">
+                    您好，欢迎来到搜易贷！
+                    <a href="#" class="welcome-login">[登录]</a>
+                    <a href="#" class="welcome-reg">[免费注册]</a>
+                </span>
+            <ul class="weak-nav">
+                <li><a href="#">手机客户端</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">新手引导</a></li>
+                <li><a href="#">帮助中心</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="head-logo">
+        <img src="img/logo.gif" alt="搜易贷">
+        <div class="login">
+            <a href="#" class="login-btn">登录</a>
+            <a href="#" class="reg-btn">免费注册</a>
+        </div>
+        <ul class="nav">
+            <li><a href="woyaotouzi.html">我要投资</a></li>
+            <li><a href="jiekuan.html">我要借款</a></li>
+            <li><a href="security.html">安全保障</a></li>
+            <li><a href="myhome-profile.html" class="active">我的账户</a></li>
+        </ul>
+    </div>
+</div>
+<!--end head-->
+<!--面包屑-->
+<div class="bread-crumbs">
+    <a href="index.html">我的账户</a>
+    <i>&nbsp;</i>
+    <a href="woyaotouzi.html">我的资金</a>
+    <i>&nbsp;</i>
+    <span>红包</span>
+</div>
+<!--end 面包屑-->
+
+<!--container-->
+<div class="container">
+    <div class="container-box">
+        <div class="con-left">
+            <div class="left-item">
+                <span class="left-item-title"><i></i>我的资金</span>
+                <ul>
+                    <li><a href="myhome-profile.html"><i></i>资金概况</a></li>
+                    <li><a href="financial-details.html"><i></i>资金明细</a></li>
+                    <li><a href="recharge.html"><i></i>充值</a></li>
+                    <li><a href="quxian.html"><i></i>提现</a></li>
+                </ul>
+            </div>
+            <div class="left-item">
+                <span class="left-item-title">我的投资<i></i></span>
+                <ul>
+                    <li><a href="#"><i></i>定期宝</a></li>
+                    <li><a href="investment.html"><i></i>投资列表</a></li>
+                    <li><a href="zhaiquanzhuanrang.html"><i></i>债权转让</a></li>
+                    <li><a href="#"><i></i>月薪宝</a></li>
+                </ul>
+            </div>
+            <div class="left-item">
+                <span class="left-item-title">我的借款<i></i></span>
+                <ul>
+                    <li><a href="borrow-list.html"><i></i>借款列表</a></li>
+                    <li><a href="repay.html"><i></i>还款</a></li>
+                </ul>
+            </div>
+            <div class="left-item">
+                <span class="left-item-title">我的账户<i></i></span>
+                <ul>
+                    <li><a href="message-box.html"><i></i>消息箱</a></li>
+                    <li><a href="safecenter.html"><i></i>安全中心</a></li>
+                    <li><a href="#"><i></i>取现银行卡</a></li>
+                    <li><a href="red-envelopes.html" class="active"><i></i>红包</a></li>
+                    <li><a href="jiaxi.html"><i></i>加息券</a></li>
+                    <li><a href="jifen.html"><i></i>易积分</a></li>
+                    <li><a href="invite-friends.html"><i></i>邀请好友</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="con-right">
+            <div class="information">
+                <div class="red-amount">
+                    <div class="red-money">
+                        <div class="red-sum">我的红包（元）<strong>60.00</strong></div>
+                        <p class="red-ico"></p>
+                        <div class="red-sum">当前可用红包（元）<strong>60.00</strong></div>
+                        <p class="red-ico jia"></p>
+                        <div class="red-sum">即将可用红包（元）<strong>0.00</strong></div>
+                    </div>
+                    <div class="red-invest">
+                        <a href="#">立即投资</a>
+                    </div>
+                </div>
+                <div class="exchange-code">
+                    <label>兑换码</label>
+                    <input type="text" value="请输入获得的兑换码" id="duihuanma" onkeyup="value=value.replace(/[\W]/g,'')">
+                    <input type="button" value="马上变红包">
+                </div>
+                <div class="red-list">
+                    <div class="myhome-right-head">
+                        <span class="current">当前可用红包<i>2</i></span>
+                        <span>即将可用红包</span>
+                        <span>已用红包（含冻结）</span>
+                        <span>已过期红包</span>
+                    </div>
+                    <div class="myhome-right-con">
+                        <div class="myhome-right-con1">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <td>红包金额(元)</td>
+                                    <td>生效日期</td>
+                                    <td>到期日期</td>
+                                    <td>红包状态</td>
+                                    <td>红包类型</td>
+                                    <td>使用条件</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>10.00</td>
+                                    <td>2016-06-28</td>
+                                    <td>2016-08-27</td>
+                                    <td>未使用</td>
+                                    <td>新人注册投资体验红包</td>
+                                    <td>单笔投资满1000元可用</td>
+                                </tr>
+                                <tr>
+                                    <td>50.00</td>
+                                    <td>2016-06-28</td>
+                                    <td>2016-08-27</td>
+                                    <td>未使用</td>
+                                    <td>新人注册投资体验红包</td>
+                                    <td>单笔投资满5000元可用</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="myhome-right-con2" style="display: none">
+                            <table>
+                            <thead>
+                            <tr>
+                                <td>红包金额(元)</td>
+                                <td>生效日期</td>
+                                <td>到期日期</td>
+                                <td>红包状态</td>
+                                <td>红包类型</td>
+                                <td>使用条件</td>
+                            </tr>
+                            </thead>
+                            <!--<tbody>
+                            <tr>
+                                <td>10.00</td>
+                                <td>2016-06-28</td>
+                                <td>2016-08-27</td>
+                                <td>未使用</td>
+                                <td>新人注册投资体验红包</td>
+                                <td>单笔投资满1000元可用</td>
+                            </tr>
+                            <tr>
+                                <td>50.00</td>
+                                <td>2016-06-28</td>
+                                <td>2016-08-27</td>
+                                <td>未使用</td>
+                                <td>新人注册投资体验红包</td>
+                                <td>单笔投资满5000元可用</td>
+                            </tr>
+                            </tbody>-->
+                        </table>
+                        </div>
+                        <div class="myhome-right-con3" style="display: none">
+                            <table>
+                            <thead>
+                            <tr>
+                                <td>红包金额(元)</td>
+                                <td>生效日期</td>
+                                <td>使用日期</td>
+                                <td>红包状态</td>
+                                <td>红包类型</td>
+                                <td>使用条件</td>
+                            </tr>
+                            </thead>
+                           <!-- <tbody>
+                            <tr>
+                                <td>10.00</td>
+                                <td>2016-06-28</td>
+                                <td>2016-08-27</td>
+                                <td>未使用</td>
+                                <td>新人注册投资体验红包</td>
+                                <td>单笔投资满1000元可用</td>
+                            </tr>
+                            <tr>
+                                <td>50.00</td>
+                                <td>2016-06-28</td>
+                                <td>2016-08-27</td>
+                                <td>未使用</td>
+                                <td>新人注册投资体验红包</td>
+                                <td>单笔投资满5000元可用</td>
+                            </tr>
+                            </tbody>-->
+                        </table>
+                        </div>
+                        <div class="myhome-right-con4" style="display: none">
+                            <table>
+                            <thead>
+                            <tr>
+                                <td>红包金额(元)</td>
+                                <td>生效日期</td>
+                                <td>到期日期</td>
+                                <td>红包状态</td>
+                                <td>红包类型</td>
+                                <td>使用条件</td>
+                            </tr>
+                            </thead>
+                            <!--<tbody>
+                            <tr>
+                                <td>10.00</td>
+                                <td>2016-06-28</td>
+                                <td>2016-08-27</td>
+                                <td>未使用</td>
+                                <td>新人注册投资体验红包</td>
+                                <td>单笔投资满1000元可用</td>
+                            </tr>
+                            <tr>
+                                <td>50.00</td>
+                                <td>2016-06-28</td>
+                                <td>2016-08-27</td>
+                                <td>未使用</td>
+                                <td>新人注册投资体验红包</td>
+                                <td>单笔投资满5000元可用</td>
+                            </tr>
+                            </tbody>-->
+                        </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hint-box">
+                <h3>温馨提示</h3>
+                <p>1. 红包可用于抵扣您的投资本金； </p>
+                <p>2. 红包暂时只可用于普通直投项目（新手专享项目、定期宝除外）； </p>
+                <p>3. 在投资时，您可以指定使用某一个符合使用条件的红包，也可以让系统自动匹配使用红包； </p>
+                <p>4. 每次投资只能使用一个红包；单个红包不可拆分使用。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end container-->
+<!--footer-->
+<div class="footer">
+    <div class="line1">
+        <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">加入我们</a></li>
+            <li><a href="#">媒体报道</a></li>
+            <li><a href="#">安全保障</a></li>
+            <li><a href="#">新手引导</a></li>
+            <li><a href="#">产品介绍</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">系统公告</a></li>
+            <li><a href="#">法律法规</a></li>
+            <li><a href="#">手机客户端</a></li>
+        </ul>
+    </div>
+    <div class="line2">
+        <div class="line2-1">
+            <a href="#"><i class="i1">&nbsp;</i>信易贷合作</a>
+            <a href="#"><i>&nbsp;</i>开发商合作</a>
+        </div>
+        <div class="line2-2">
+            <div class="line2-2-box">
+                <a href="#"><i class="i-iphone">&nbsp;</i>苹果客户端下载</a>
+                <a href="#"><i class="i-android">&nbsp;</i>安卓客户端下载</a>
+                <a href="#"><i class="i-browser">&nbsp;</i>手机浏览器访问</a>
+                <div>
+                    <div class="code code1">
+                        <img src="img/code1.jpg">
+                        <span></span>
+                    </div>
+                    <div class="code code2">
+                        <img src="img/code2.jpg">
+                        <span></span>
+                    </div>
+                    <div class="code code3">
+                        <img src="img/code3.jpg">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line2-3">
+            <div class="line2-3-box">
+                <div class="line2-3-top">
+                    <a href="#" class="line2-3-top1"></a>
+                    <a href="#" class="line2-3-top2"></a>
+                </div>
+                    <span>搜易贷与国际著名的征信机构Experian和FICO云决<br>
+                        策平台合作，使用特别定制的评分卡与风控模型</span>
+            </div>
+        </div>
+        <div class="line2-4">
+            <span class="time">服务时间：工作日9:00 - 18:00</span>
+            <span class="tel">4000-168-866</span>
+            <div class="line2-4-box">
+                <a href="#" class="a1"><i class="i1">&nbsp;</i>在线客服</a>
+                <a href="#" class="a2"><i class="i2">&nbsp;</i>客服邮箱</a>
+                <a href="#" class="a3"><i class="i3">&nbsp;</i></a>
+                <a href="#" class="a4"><i class="i4">&nbsp;</i></a>
+                <a href="#" class="a5"><i class="i5">&nbsp;</i></a>
+            </div>
+        </div>
+    </div>
+    <div class="line3">
+        <div class="line3-img">
+            <a href="#" class="line3-img1"></a>
+            <a href="#" class="line3-img2"></a>
+            <a href="#" class="line3-img3"></a>
+            <a href="#" class="line3-img4"></a>
+            <a href="#" class="line3-img5"></a>
+            <a href="#" class="line3-img6"></a>
+        </div>
+        <div class="line3-right">
+            <span>搜易贷公司 版权所有 © 2014-2016 souyidai.com, All Rights Reserved</span>
+            <a href="#">京ICP备14032951号-1</a>
+            <span> | 投资有风险 理财需谨慎</span>
+        </div>
+    </div>
+    <div class="line4">
+        <div class="line4-1">
+            <span>网站链接:</span>
+            <ul>
+                <li><a href="#">p2p理财公司排名</a></li>
+                <li><a href="#">宁波银行理财产品</a></li>
+                <li><a href="#">最新理财产品排行</a></li>
+                <li><a href="#">月收入5000如何理财</a></li>
+                <li><a href="#">目前最好的理财方式</a></li>
+                <li><a href="#">月入3000如何理财</a></li>
+                <li><a href="#">工薪族如何理财</a></li>
+                <li><a href="#">搜易贷</a></li>
+            </ul>
+        </div>
+        <div class="line4-2">
+            <span>友情链接:</span>
+            <ul>
+                <li><a href="#">搜狐焦点</a></li>
+                <li><a href="#">搜狐理财</a></li>
+                <li><a href="#">微钱包</a></li>
+                <li><a href="#">和讯理财</a></li>
+                <li><a href="#">腾讯理财</a></li>
+                <li><a href="#">凤凰理财</a></li>
+                <li><a href="#">网贷天眼</a></li>
+                <li><a href="#">可可黄金网</a></li>
+                <li><a href="#">p2p理财平台</a></li>
+                <li><a href="#">上海房地产</a></li>
+                <li><a href="#">阳光私募基金</a></li>
+                <li><a href="#">小额贷款</a></li>
+                <li><a href="#">保险网</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--end footer-->
+</body>
+</html>

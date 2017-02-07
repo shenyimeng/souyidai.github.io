@@ -1,0 +1,240 @@
+.con-right{
+    width: 890px;
+    min-height: 690px;
+    border: 1px solid #e3e3e3;
+}
+/*tab*/
+.myhome-right-head{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.myhome-right-head span{
+    display: block;
+    float: left;
+    color: #333;
+    padding: 0 30px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: -1px;
+}
+.myhome-right-head span.current{
+    line-height: 37px;
+    height: 39px;
+    color: #0893D4;
+    border-bottom: 1px solid #fff;
+    border-top: 3px solid #0893D4;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+/*con1*/
+.quxian-con1{
+    margin: 20px 20px 0 20px;
+}
+.cash-row span{
+    width: 73px;
+    font-size: 14px;
+    color: #666;
+}
+.form-box{
+    padding-top: 20px;
+    border: 1px solid #E6F4FB;
+    background-color: #F2F9FD;
+    min-height: 170px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 78px;
+    color: #666;
+    font-size: 14px;
+}
+.form-item{
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 9px;
+}
+.form-item label{
+    display: block;
+    float: left;
+    width: 97px;
+    font-size: 14px;
+}
+.form-item .item-center{
+    float: left;
+    width: 196px;
+    color: #333;
+    text-align: right;
+}
+.form-item .item-center strong{
+    font-weight: 400;
+    float: left;
+    display: block;
+    width: 132px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333333;
+}
+.form-item .item-center span{
+    font-size: 12px;
+    padding-left: 10px;
+    float: left;
+}
+.form-item .item-center input{
+    color: #000;
+    float: left;
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    text-align: right;
+    border: 1px solid #c2c2c2;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+.form-item .get-all{
+    height: 20px;
+    line-height: 20px;
+    color: #209ED8;
+    cursor: pointer;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form-item .get-all:hover{
+    color: #007bb4;
+}
+.quxian-btn{
+    padding-left: 80px;
+}
+.quxian-btn a{
+    display: block;
+    height: 42px;
+    width: 128px;
+    line-height: 42px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #0893D4;
+    border-radius: 3px;
+    float: left;
+}
+.quxian-btn a:hover{
+    background-color: #0082bf;
+}
+.quxian-con1>img{
+    margin-top: 40px;
+}
+.hint-box{
+    margin: 40px 20px 20px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+.hint-box h3{
+    font-size: 14px;
+    color: #f60;
+    padding-bottom: 5px;
+}
+.hint-box p{
+    line-height: 20px;
+    color: #666666;
+}
+/*con2*/
+/*range*/
+.range{
+    margin: 0 20px;
+    padding-top: 12px;
+    padding-bottom: 3px;
+    height: 22px;
+    overflow: hidden;
+}
+.range span{
+    display: block;
+    width: 67px;
+    color: #666;
+    font-weight: 700;
+    float: left;
+    line-height: 25px;
+    height: 25px;
+}
+.range ul{
+    float: left;
+}
+.range ul li{
+    float: left;
+}
+.range ul li input{
+    width: 83px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #E3E3E3;
+    background-color: white;
+}
+.range ul li label{
+    padding: 0 11px;
+}
+.range ul li a{
+    margin-left: 24px;
+    color: #0893d4;
+}
+.range ul li a:hover{
+    color: #73bdf1;
+}
+/*table*/
+.con2-table-head{
+    margin: 20px 20px 0 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #F8F8F8;
+    border-top: 1px solid #ededed;
+    border-bottom: 2px solid #e3e3e3;
+}
+.wh-140{
+    width: 140px;
+}
+.wh-100{
+    width:100px;
+}
+.wh-120{
+    width: 120px;
+}
+.wh-340{
+    width: 340px;
+}
+.con2-table-body{
+    height: 40px;
+    line-height: 40px;
+    margin: 0 20px 0 20px;
+    text-align: center;
+}
+.con2-table-body table{
+    border-collapse: collapse;
+}
+.con2-table-body table tr:hover{
+    background-color: #f3f3f3;
+}
+/*page*/
+.page{
+    padding: 20px 0 30px;
+    float: right;
+}
+.page span{
+    display: block;
+    float: left;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin-left: 15px;
+    color: #3F80DC;
+    background: url("../img/page.png") no-repeat;
+}
+.page span.current {
+    background-position: 0 -350px;
+}
+.page span.prev {
+    background-position: 10px -34px;
+}
+
+.page span.next {
+    background-position: 0 -62px;
+}

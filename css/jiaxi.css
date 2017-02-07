@@ -1,0 +1,118 @@
+.con-right{
+    width: 890px;
+    min-height: 690px;
+    border: 1px solid #e3e3e3;
+}
+.jiaxi-top{
+    margin: 30px 20px 15px 20px;
+    height: 58px;
+}
+.jiaxi-top-left{
+    float: left;
+    width: 600px;
+}
+.jiaxi-top-left p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+.jiaxi-top-left p span{
+    display: block;
+    width: 200px;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    float: left;
+}
+.jiaxi-top-left p strong{
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.jiaxi-top-right{
+    float: right;
+    width: 118px;
+    height: 30px;
+    padding-top: 20px;
+}
+.jiaxi-top-right input{
+    display: inline-block;
+    width: 118px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #53a0e3;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    border-radius: 4px;
+}
+.jiaxi-top-right input:hover{
+    background-color: #73bdf1;
+    transition: all 0.15s ease-in-out;
+}
+/*tab*/
+.myhome-right-head{
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #E4E4E4;
+    margin: 20px 20px 0 20px;
+}
+.myhome-right-head span{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    padding: 0 30px;
+    cursor: pointer;
+    margin-left: -1px;
+}
+.myhome-right-head span.current{
+    line-height: 36px;
+    height: 38px;
+    color: #0893D4;
+    border-bottom: 1px solid #fff;
+    border-top: 3px solid #0893D4;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    margin-left: -1px;
+}
+.myhome-right-con{
+    margin: 10px 20px 0 20px;
+}
+.myhome-right-con table{
+    width: 850px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.myhome-right-con table th{
+    background-color: #F5F5F5;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #E4E4E4;
+    padding: 0 5px;
+}
+.myhome-right-con table td{
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+    border-bottom: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+    padding: 0 5px;
+}
+/*hint-box*/
+.hint-box{
+    margin: 40px 20px 20px;
+    padding: 15px;
+    background-color: #fafafa;
+}
+.hint-box h3{
+    font-size: 14px;
+    color: #f60;
+    padding-bottom: 5px;
+}
+.hint-box p{
+    line-height: 20px;
+    color: #333333;
+}

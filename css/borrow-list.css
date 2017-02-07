@@ -1,0 +1,99 @@
+.con-right{
+    width: 890px;
+    min-height: 690px;
+    float: right;
+    border: 1px solid #e3e3e3;
+}
+.myhome-right-head{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #dddddd;
+}
+.myhome-right-head span{
+    display: block;
+    float: left;
+    color: #333;
+    padding: 0 30px;
+    cursor: pointer;
+    margin-left: -1px;
+}
+.myhome-right-head span.current{
+    line-height: 37px;
+    height: 39px;
+    color: #0893D4;
+    border-bottom: 1px solid #fff;
+    border-top: 3px solid #0893D4;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+/*b-list-con1*/
+.b-list-con1 .choose{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+}
+.choose span{
+    padding: 3px 7px;
+    border-radius: 3px;
+    margin-left: 35px;
+    color: #666;
+    cursor: pointer;
+}
+.choose span.active{
+    color: #fff;
+    background-color: #0893D4;
+}
+.blist-table-head,
+.blist-table-body{
+    width: 830px;
+    margin: 0 auto;
+    height: 43px;
+    padding-right: 20px;
+}
+.blist-table-head{
+    background-color: #F8F8F8;
+    border-top: 1px solid #ededed;
+    border-bottom: 2px solid #e3e3e3;
+}
+.blist-table-head table,
+.blist-table-body table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.blist-table-head table td,
+.blist-table-body table td{
+    height: 43px;
+}
+.b-list-con2{
+    margin-top: 20px;
+}
+.wh-130{
+    width: 130px;
+}
+.wh-90{
+    width: 90px;
+}
+.wh-50{
+    width: 50px;
+}
+.wh-70{
+    width: 70px;
+}
+.wh-60{
+    width: 60px;
+}
+.wh-75{
+    width: 75px;
+}
+.wh-165{
+    width: 165px;
+}
+.wh-150{
+    width: 150px;
+}
+.wh-96{
+    width: 96px;
+}
+.wh-186{
+    width: 186px;
+}

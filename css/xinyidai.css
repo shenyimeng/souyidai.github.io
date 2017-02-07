@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft Yahei',serif;
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
+}
+body{
+    background-color: #f5f5f5;
+}
+/*面包屑*/
+.bread-crumbs{
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    zoom: 1;
+}
+.bread-crumbs a,
+.bread-crumbs span{
+    display: block;
+    float: left;
+}
+.bread-crumbs a:hover{
+    color: #53a0e3;
+    transition: all 0.15s ease-in-out;
+}
+.bread-crumbs i{
+    display: block;
+    float: left;
+    width: 5px;
+    height: 9px;
+    margin-top: 21px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #ccc;
+    background: url("../img/certifi-pic.png") -53px -466px;
+}
+/*container*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*parts*/
+.parts{
+    min-height: 528px;
+    padding-left: 30px;
+    border: 1px solid #ececec;
+    background-color: #fff;
+}
+.parts h4{
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 53px;
+}
+/*part1*/
+.part1{
+    background:#ffffff url("../img/xyd-bg-img-01.jpg") no-repeat right bottom;
+}
+.part1 h4{
+    padding: 25px 0 12px;
+}
+.part1 h4 i{
+    display: block;
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 5px 10px 0 0;
+    background: url("../img/version-img.png") no-repeat -53px -632px;
+}
+.part1 p{
+    line-height: 24px;
+    font-size: 14px;
+}
+.part1 ul{
+    padding-top: 8px;
+}
+.part1 ul li{
+    height:24px;
+    line-height: 24px;
+}
+.part1 ul li>span{
+    display: block;
+    float: left;
+    font-size: 14px;
+ }
+.part1 ul .process-person{
+    height: 72px;
+}
+.part1 ul .flow-chart{
+    width: 650px;
+    height: 60px;
+    line-height: 60px;
+    padding: 13px 0 20px;
+    border-bottom: 1px solid #ececec;
+}
+.part1 ul .flow-chart .name{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+}
+.part1 ul .scan-code{
+    height: 102px;
+    line-height: 102px;
+    padding-top: 20px;
+}
+.part1 ul .scan-code .name{
+    display: inline-block;
+    height: 102px;
+    line-height: 102px;
+    vertical-align: top;
+}
+.part1 ul .scan-code .webchat-public{
+    width: 130px;
+    padding-right: 3px;
+    text-align: right;
+}
+.part1 ul .scan-code img{
+    width: 102px;
+    height: 102px;
+}
+.part1 ul li>span.name{
+    width: 75px;
+    color: #999;
+}
+/*part2*/
+.part2{
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.part2 h4{
+    padding-top: 23px;
+}
+.part2 ul{
+    padding-top: 12px;
+}
+.part2 ul li{
+    display: block;
+    min-height: 42px;
+    padding-left: 15px;
+    margin-top: 4px;
+    overflow: hidden;
+}
+.part2 ul li.question{
+    background-color: #fafafa;
+}
+.part2 ul li.answer{
+    margin-bottom: 20px;
+}
+.part2 ul li>i{
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+    background: url("../img/version-img.png") 0 -380px;
+}
+.part2 ul li.answer>i{
+    background: url("../img/version-img.png") -31px -380px;
+}
+.part2 ul li>span{
+    width: 1080px;
+    float: left;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 30px;
+    margin-top: 6px;
+}
+/*part3*/
+.part3{
+    margin-top: 20px;
+    padding-left: 0;
+    border: 0;
+}
+.part3 h4{
+    padding: 20px 0 0 30px;
+}
+.part3 .part3-process{
+    padding-top: 25px;
+}
+/*aside*/
+.part3 .part3-process .part3-process-aside{
+    padding-right: 3px;
+    width: 382px;
+    height: 440px;
+    float: left;
+}
+.part3 .part3-process .part3-process-aside>div{
+     width: 383px;
+     height: 109px;
+     border: 1px solid #ececec;
+     border-bottom: 0 solid #ececec;
+     position: relative;
+ }
+.part3 .part3-process .part3-process-aside>div.active{
+    background-color: #64b2e9;
+    border: 1px solid #64b2e9;
+    border-bottom: 0 solid #64b2e9;
+    cursor: pointer;
+}
+.part3 .part3-process .part3-process-aside>div.active>span,
+.part3 .part3-process .part3-process-aside>div.active .aside-text h3,
+.part3 .part3-process .part3-process-aside>div.active .aside-text p{
+    color: #ffffff;
+}
+.part3 .part3-process .part3-process-aside>div.active .arrow{
+    display: block;
+}
+.part3 .part3-process .part3-process-aside>div>span{
+    display: block;
+    width: 69px;
+    text-align: center;
+    font-family: Arial,serif;
+    color: #ccc;
+    float: left;
+    padding-top: 28px;
+    font-size: 48px;
+}
+.part3 .part3-process-aside>div .aside-text h3{
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 14px;
+    padding-bottom: 3px;
+}
+.part3 .part3-process-aside>div .aside-text p{
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 20px;
+}
+.part3 .part3-process-aside>div .arrow{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -20px;
+    top: 44px; z-index: 1;
+    display: none;
+}
+.part3 .part3-process-aside>div .arrow>span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    margin-left: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-width: 10px;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #64b2e9;
+
+}
+/*picture*/
+.part3 .part3-process .part3-process-picture{
+    width: 814px;
+    height: 438px;
+    border: 1px solid #ececec;
+    border-left: 0 solid #ececec;
+    float: left;
+}
+.part3 .part3-process .part3-process-picture .picture2,
+.part3 .part3-process .part3-process-picture .picture3,
+.part3 .part3-process .part3-process-picture .picture4{
+    display: none;
+}

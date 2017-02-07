@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7be313ce-3825-4b31-bb8f-a56a4040223d" name="Default" comment="1">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/a1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/a2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/a3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ad-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/b1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/b2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/b3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/b4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/b5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/b6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bank-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/certifi-pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/code1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/code2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/code3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/company-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/con2-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/con2-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/con2-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/detail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/footer-ex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/footer-fl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ico-borrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ico-home-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/invit-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/invite-banner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/invite-header-center.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-banner1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-banner2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-banner3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-banner4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r1-hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r2-hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r3-hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r4-hover.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jiekuan-r4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen-10yuan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen-20yuan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen-30yuan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen-50yuan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen-5yuan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen0.1%.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen0.2%.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen0.3%.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jifen0.5%.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/m1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/max.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mfd-banner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mfd-left4-icon1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mfd-left4-img1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mixed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/myhome-borrow-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/myhome-head.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/myhome-invest-icon1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/myhome-invest-icon2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/myhome-subpersonal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/myhome-topbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/nor-mx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/passimage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/quxian-img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rgn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/right-adv.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rotation1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/security-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/security-img1-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/security-img3-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sidebar-img-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sidebar-img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-3-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-3-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-banner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-date-dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-jian.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-left4-icon1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-left4-icon2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-left4-img1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-left4-img2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-money-dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-rt-code.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-slider-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sld-slider-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tab-banner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/tab-banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/transparent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/version-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/version-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/vr-ico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-3-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-3-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-3-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-3-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-application.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-bg-img-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-flow-chart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/xyd-jkuan-public.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zhouzhuan-3-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/zhouzhuan-banner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/souyidai.github.io.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/borrow-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-datetimepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/borrow-list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/dingqibao.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/financial-detail.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/head.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/investment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/invite-friends.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jiaxi.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jiekuan.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jifen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/maifangdai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/message-box.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/myhome-left.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/myhome-profile.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/quxian.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/recharge.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/red-envelopes.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/repay.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/safecenter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/security.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/shuloudai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/woyaotouzi.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/xinyidai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/zhaiquanzhuanrang.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/zhouzhuan.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dingqibao.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/financial-details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/investment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/invite-friends.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jiaxi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jiekuan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jifen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/ZK_Calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap-datetimepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/chart-huan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/echarts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/fold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index-rate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/input-focusblur.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jiekuan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.11.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/message-box.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/myhome-right-tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/safecenter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/security.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/woyaotouzi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/xinyidai.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zhouzhuan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maifangdai.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/message-box.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myhome-profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quxian.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recharge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/red-envelopes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/repay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/safecenter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/security.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shuloudai.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/woyaotouzi.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xinyidai.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhaiquanzhuanrang.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zhouzhuan.html" />
+    </list>
+    <ignored path="souyidai.github.io.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="souyidai.github.io" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="security.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/security.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3076923">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3076923">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jiekuan.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/jiekuan.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3076923">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myhome-left.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/myhome-left.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6153846">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="red-envelopes.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/red-envelopes.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.179487">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/calendar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6153846">
+              <caret line="6" column="138" selection-start-line="6" selection-start-column="138" selection-end-line="6" selection-end-column="138" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quxian.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/quxian.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.7435898">
+              <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myhome-profile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/myhome-profile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8461537">
+              <caret line="518" column="38" selection-start-line="518" selection-start-column="38" selection-end-line="518" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myhome-profile.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myhome-profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8461537">
+              <caret line="262" column="41" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jifen.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jifen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35626101">
+              <caret line="275" column="29" selection-start-line="275" selection-start-column="29" selection-end-line="275" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/head.css" />
+        <option value="$PROJECT_DIR$/css/zhouzhuan.css" />
+        <option value="$PROJECT_DIR$/css/woyaotouzi.css" />
+        <option value="$PROJECT_DIR$/css/maifangdai.css" />
+        <option value="$PROJECT_DIR$/css/shuloudai.css" />
+        <option value="$PROJECT_DIR$/css/xinyidai.css" />
+        <option value="$PROJECT_DIR$/css/security.css" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/css/jiekuan.css" />
+        <option value="$PROJECT_DIR$/css/myhome-left.css" />
+        <option value="$PROJECT_DIR$/css/red-envelopes.css" />
+        <option value="$PROJECT_DIR$/css/calendar.css" />
+        <option value="$PROJECT_DIR$/css/myhome-profile.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="souyidai.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="souyidai.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="souyidai.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="F:/bxMobile" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7be313ce-3825-4b31-bb8f-a56a4040223d" name="Default" comment="" />
+      <created>1486437815758</created>
+      <option name="number" value="Default" />
+      <updated>1486437815758</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/head.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5384616">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/safecenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/zhouzhuan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6153846">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/woyaotouzi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8461537">
+          <caret line="595" column="38" selection-start-line="595" selection-start-column="38" selection-end-line="595" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/maifangdai.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shuloudai.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/xinyidai.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8461537">
+          <caret line="219" column="28" selection-start-line="219" selection-start-column="28" selection-end-line="219" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/security.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jiekuan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3076923">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myhome-left.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6153846">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/red-envelopes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.179487">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/calendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6153846">
+          <caret line="6" column="138" selection-start-line="6" selection-start-column="138" selection-end-line="6" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1533" column="50" selection-start-line="1533" selection-start-column="50" selection-end-line="1533" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/quxian.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7435898">
+          <caret line="103" column="23" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myhome-profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8461537">
+          <caret line="518" column="38" selection-start-line="518" selection-start-column="38" selection-end-line="518" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myhome-profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8461537">
+          <caret line="262" column="41" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jifen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35626101">
+          <caret line="275" column="29" selection-start-line="275" selection-start-column="29" selection-end-line="275" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

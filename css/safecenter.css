@@ -1,0 +1,125 @@
+.con-right{
+    width: 850px;
+    min-height: 690px;
+    border: 1px solid #e3e3e3;
+    padding: 20px 20px 0 20px;
+}
+/*safety-row*/
+.safety-row{
+    margin-bottom: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+/*safety-level*/
+.safety-level{
+    float: left;
+}
+.safety-level strong{
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+.level-row{
+    margin-left: 10px;
+    float: left;
+    width: 256px;
+    padding-top: 6px;
+}
+.level-row>span{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 11px;
+    overflow: hidden;
+    background-color: #E4E9ED;
+    margin-right: 1px;
+}
+.level-row>span:first-child{
+    border-radius: 20px 0 0 20px;
+}
+.level-row>span:last-child{
+    border-radius: 0 20px 20px 0;
+}
+.level-row>span.level-low{
+    background-color: #ff8679;
+}
+.level-row>span.level-middle{
+    background-color: #ffd800;
+}
+.level-row>span.level-high{
+    background-color: #8ec31f;
+}
+.safety-level>span{
+    font-size: 14px;
+    font-style: normal;
+}
+/*safety-hint*/
+.safety-hint{
+    float: right;
+}
+.safety-hint p{
+    color: #ff3300;
+}
+.safety-hint p i{
+    margin-top: 2px;
+    margin-right: 7px;
+    display: block;
+    float: left;
+    width: 16px;
+    height: 17px;
+    background: url("../img/ico-borrow.png") -198px -49px;
+}
+/*safety-item*/
+.safety-item{
+    height: 58px;
+    line-height: 58px;
+    background-color: #F9F9F9;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0 19px 0 14px;
+}
+.safety-name{
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    width: 230px;
+    float: left;
+}
+.safety-name i{
+    margin-top: 20px;
+    margin-right: 12px;
+    display: block;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background: url("../img/ico-borrow.png");
+}
+.safety-name i.setting-default{
+    background-position: -185px -273px;
+}
+.safety-name i.setting-success{
+    background-position: -162px -273px
+}
+.safety-status{
+    color: #888;
+    font-size: 14px;
+}
+.safety-item span.not-enabled{
+    color: red;
+}
+.safety-movement a{
+    color: #007bb4;
+    float: right;
+    font-size: 14px;
+}
+.safety-movement a:hover{
+    color: #73bdf1;
+}
+.safety-item .safety-status .safety-status{
+    float: right;
+    margin-right: 10px;
+}
+.safety-item .hover-status{
+    display: none;
+}

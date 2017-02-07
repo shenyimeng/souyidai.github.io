@@ -1,0 +1,328 @@
+
+/*tab title*/
+.myhome-right-head{
+    height: 39px;
+    border-bottom: 1px solid #ececec;
+}
+.myhome-right-head span{
+    display: block;
+    float: left;
+    width: 198px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    background-color: #fafafa;
+    border: 1px solid #ececec;
+    border-left: 0 solid #ececec;
+}
+.myhome-right-head span.current{
+    height: 37px;
+    line-height: 36px;
+    color: #333;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 2px solid #53a0e3;
+    border-left: 1px solid #ececec;
+}
+/*tab con*/
+.myhome-right-con{
+    margin-top: 10px;
+}
+/*bank-pay*/
+.banks-pay{
+    height: 124px;
+}
+.banks-pay>span,
+.balance>span,
+.recharge-num>span{
+    display: block;
+    float: left;
+    width: 74px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    text-align: left;
+    color: #666;
+}
+.banks-pay .bank-list{
+    width: 815px;
+    position: relative;
+    float: left;
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+.banks-pay .bank-list>div{
+    position: relative;
+    float: left;
+    width: 162px;
+    height: 40px;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+}
+.banks-pay .bank-list>div:hover{
+    background-color: #f5f5f5;
+    transition: all 0.15s linear;
+}
+.bank-list>div span{
+    display: block;
+    float: left;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.bank-list>div span.bankicon{
+    cursor: default;
+    width: 54px;
+    height: 40px;
+    background: url("../img/bank-ico.png") no-repeat;
+}
+.bank-list>div span.icbc-ico{
+    background-position: 0 0;
+}
+.bank-list>div span.boc-ico{
+    background-position: -110px 0;
+}
+.bank-list>div span.ccb-ico{
+    background-position: 0 -41px;
+}
+.bank-list>div span.ceb-ico{
+    background-position: -220px -82px;
+}
+.bank-list>div span.cmb-ico{
+    background-position: -55px 0;
+}
+.bank-list>div span.citic-ico{
+    background-position: -55px -82px;
+}
+.bank-list>div span.psbc-ico{
+    background-position: -165px -82px;
+}
+.bank-list>div span.spdb-ico{
+    background-position: -220px -41px;
+}
+.bank-list>div span.gdb-ico{
+    background-position: -110px -82px;
+}
+.bank-list>div span.cib-ico{
+    background-position: -165px -41px;
+}
+.bank-list>div span.cmbc-ico{
+    background-position: -165px 0;
+}
+.bank-list>div span.szpab-ico{
+    background-position: -220px 0;
+}
+.bank-list>div span.bankname{
+    width: 108px;
+    color: #333333;
+}
+/*balance*/
+.balance{
+    height: 42px;
+    line-height: 42px;
+}
+.balance .balance-txt{
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+.balance .balance-txt strong{
+    float: left;
+    display: block;
+    width: 150px;
+    padding-right: 10px;
+    margin-right: 5px;
+    text-align: right;
+    font-weight: 400;
+    font-size: 18px;
+}
+.balance .balance-txt span{
+    margin-left: 5px;
+    color: #666;
+    line-height: 42px;
+    font-size: 14px;
+}
+/*recharge-num*/
+.recharge-num{
+    height: 42px;
+}
+.recharge-num input{
+    position: relative;
+    width: 158px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    text-align: right;
+    line-height: 20px;
+    padding-right: 10px;
+    color: #999;
+    font-size: 14px;
+    float: left;
+}
+.recharge-num em{
+    float: left;
+    display: block;
+    font-style: normal;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    color: #666;
+}
+.recharge-num .error-box{
+    color: #f00;
+    position: relative;
+    left: 0;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+}
+.recharge-num .error-box i{
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 13px 5px 0 0;
+    background: url("../img/certifi-pic.png") -24px -525px;
+}
+/*recharge-btn*/
+.recharge-btn{
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+}
+.recharge-btn a{
+    float: left;
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: #53a0e3;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 74px;
+}
+/*hint-box*/
+.hint-box{
+    border: 1px solid #ececec;
+    background-color: #fff;
+    margin: 40px 20px 20px;
+    padding: 15px;
+}
+.hint-box h3{
+    font-size: 14px;
+    color: #f60;
+    padding-bottom: 5px;
+}
+.hint-box .hint-box-con{
+    line-height: 20px;
+    color: #333333;
+}
+/*con2 recharge-type*/
+.recharge-type{
+    height: 22px;
+    margin-top: 20px;
+}
+.recharge-type span,
+.recharge-time span{
+    width: 87px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+.recharge-type ul,
+.recharge-time ul{
+    float: left;
+}
+.recharge-type ul li{
+    display: inline-block;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 23px;
+    text-align: center;
+    color: #333;
+    cursor: pointer;
+}
+.recharge-type ul li.current{
+    color: #fff;
+    background-color: #53a0e3;
+    border-radius: 4px;
+}
+.recharge-time{
+    margin-top: 14px;
+    display: block;
+    height: 22px;
+    line-height: 22px;
+}
+.recharge-time ul li{
+    float: left;
+}
+.recharge-time ul li input{
+    display: block;
+    width: 80px;
+    height: 20px;
+    line-height: normal;
+    padding-left: 3px;
+    outline: 0;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: middle;
+}
+.recharge-time ul li label{
+    padding: 0 11px;
+}
+.recharge-time ul li a{
+    padding-left: 20px;
+    color: #53a0e3;
+}
+.recharge-time ul li a:hover{
+    color: #73bdf1;
+}
+/*recharge-table-head*/
+.recharge-table-head{
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+}
+.recharge-table-body{
+    height: 40px;
+    line-height: 40px;
+}
+.recharge-table-head table,
+.recharge-table-body table{
+    text-align: center;
+    border-collapse: collapse;
+}
+.recharge-table-body table tr:hover{
+    background-color: #f3f3f3;
+}
+.wh-160{
+    width: 160px;
+}
+.wh-130{
+    width: 130px;
+    text-align: right;
+}
+.wh-310{
+    width: 310px;
+}
+.wh-90{
+    width: 90px;
+    text-align: left;
+}
+.wh-200{
+    width: 200px;
+}

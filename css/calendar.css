@@ -1,0 +1,15 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td,hr,span,strong,img,em,object,option,select{margin:0;padding:0;}
+
+.zk_container { width:840px; position:relative;  background:#fff; padding:5px;border:#ececec solid 1px;}
+.zk_container .cal_container dl{ width:840px;font-size:12px; font-family:Tahoma, Geneva, sans-serif;}
+.zk_container .cal_container dt{ float:left; width:109px; height:40px; line-height:40px; font-style:italic;padding-left:10px;border:#ececec solid 1px;margin: -1px 0 0 -1px;font-size: 14px;}
+.zk_container .cal_container .cal_top{ height:40px; width:839px; font-weight:bold; background:#eeeeee; position:relative; padding: 0;font-style: normal;text-align: center;}
+.zk_container .cal_container .cal_top a{ cursor:pointer;  font-size:12px; display:block; width:20px; height:20px; position:absolute; top:0;}
+.zk_container .cal_container .cal_top .l-arrow{ left:5px;}
+.zk_container .cal_container .cal_top .r-arrow{ right:5px;}
+.zk_container .cal_container .cal_top span{font-size: 14px;}
+.zk_container .cal_container dd{ font-weight:normal; color:#555;clear:both;}
+.zk_container .cal_container dd a{ width:109px; height:45px; padding: 7px 0 0 10px; display:block; background:#FFFFFF; font-size: 14px; font-style:italic;font-family: Arial,Helvetica,serif; float:left; border:#ececec solid 1px;cursor:pointer; margin:-1px 0 0 -1px;}
+.zk_container .cal_container dd a.disabled{ color:#999999;cursor:auto;}
+.zk_container .cal_container dd a.today{ font-weight:bold; background-color: #eff8ff;color: #ff6803;}
+.zk_container .cal_container dd a.log{ color:#C63;}

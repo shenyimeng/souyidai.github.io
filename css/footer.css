@@ -1,0 +1,373 @@
+/*footer*/
+.footer{
+    min-height: 315px;
+    min-width: 1200px;
+    background-color: #333;
+    font-size: 12px;
+}
+/*footer line1*/
+.footer .line1{
+    padding-top: 30px;
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .line1 ul{
+    list-style: none;
+}
+.footer .line1 ul li{
+    float: left;
+    margin-left: 56px;
+}
+.footer .line1 ul li:first-child{
+    margin-left: 0;
+}
+.footer .line1 ul li a{
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footer .line1 ul li a:hover{
+    color: white;
+    transition: all 0.15s linear;
+}
+/*footer line2*/
+.footer .line2{
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .line2>div{
+    float: left;
+    width: 196px;
+    height: 100px;
+    border-right: 1px solid #3a3a3a;
+}
+/*line2-1*/
+.footer .line2 .line2-1{
+    margin-top: 7px;
+}
+.footer .line2 .line2-1 a{
+    display: block;
+    width: 148px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 14px;
+    border: 1px solid #444;
+    color: #999;
+    text-decoration: none;
+}
+.footer .line2 .line2-1 a i{
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-left: 13px;
+    background: url("../img/vr-ico.png") 0 -196px;
+}
+.footer .line2 .line2-1 a .i1{
+    background: url("../img/vr-ico.png") -27px -196px;
+}
+/*line2-2*/
+.footer .line2 .line2-2{
+    width: 330px;
+}
+.footer .line2 .line2-2 .line2-2-box{
+    padding-left: 167px;
+    position: relative;
+}
+.footer .line2 .line2-2 .line2-2-box>a{
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    color: #999;
+    text-decoration: none;
+}
+.footer .line2 .line2-2 .line2-2-box>a:hover{
+    color: white;
+}
+.footer .line2 .line2-2 .line2-2-box>a>i{
+    display: block;
+    width: 17px;
+    height: 19px;
+    float: left;
+    background: url("../img/vr-ico.png") 2px -127px;
+    margin: 5px 4px 0 0;
+}
+.footer .line2 .line2-2 .line2-2-box>a:hover .i-iphone{
+    background: url("../img/vr-ico.png") 2px -151px;
+}
+.footer .line2 .line2-2 .line2-2-box>a>.i-android{
+    background: url("../img/vr-ico.png") -20px -127px;
+}
+.footer .line2 .line2-2 .line2-2-box>a:hover .i-android{
+    background: url("../img/vr-ico.png") -20px -151px;
+}
+.footer .line2 .line2-2 .line2-2-box>a>.i-browser{
+    background: url("../img/vr-ico.png") -47px -125px;
+}
+.footer .line2 .line2-2 .line2-2-box>a:hover .i-browser{
+    background: url("../img/vr-ico.png") -47px -149px;
+}
+.footer .line2 .line2-2 .line2-2-box .code{
+    width: 89px;
+    height: 89px;
+    padding: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    left: 57px;
+    background-color: #fff;
+    color: #8a949c;
+    z-index: 1;
+    opacity: .6;
+}
+.footer .line2 .line2-2 .line2-2-box>a:hover .code{
+    opacity: 1;
+}
+.footer .line2 .line2-2 .line2-2-box .code2,
+.footer .line2 .line2-2 .line2-2-box .code3{
+    display: none;
+}
+.footer .line2 .line2-2 .line2-2-box .code>span{
+    position: absolute;
+    top: 9px;
+    right: -17px;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border-width: 8px 9px;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #fff;
+}
+.footer .line2 .line2-2 .line2-2-box .code2>span{
+    top: 42px;
+}
+.footer .line2 .line2-2 .line2-2-box .code3>span{
+    top: 75px;
+}
+/*line2-3*/
+.footer .line2 .line2-3{
+    width: 366px;
+}
+.footer .line2 .line2-3 .line2-3-box{
+    padding-left: 57px;
+}
+.footer .line2 .line2-3 a{
+    border-right: 1px solid #3a3a3a;
+    display: block;
+    float: left;
+    width: 145px;
+    height: 45px;
+    background: url("../img/footer-ex.png") no-repeat;
+}
+.footer .line2 .line2-3 .line2-3-top{
+    overflow: hidden;
+}
+.footer .line2 .line2-3 .line2-3-top2{
+    background: url("../img/footer-fl.png") no-repeat;
+    margin-left: 17px;
+    border-right:0;
+}
+.footer .line2 .line2-3 span{
+    display: block;
+    color: #999;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 16px;
+}
+/*line2-4*/
+.footer .line2 .line2-4{
+    width: 250px;
+    border-right: 0;
+    float: right;
+}
+.footer .line2 .line2-4 .time{
+    color: #999999;
+}
+.footer .line2 .line2-4 .tel{
+    display: block;
+    font-family: Arial;
+    color: #999;
+    font-size: 40px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.footer .line2 .line2-4 .line2-4-box{
+    position: relative;
+    width: 249px;
+    height: 28px;
+    margin-right: 1px;
+    border: 1px solid #444;
+    border-right: 0 solid #444;
+}
+.footer .line2 .line2-4 .line2-4-box a{
+    color: #999;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    width: 28px;
+    float: left;
+    border-right: 1px solid #444;
+    position: relative;
+    text-decoration: none;
+}
+.footer .line2 .line2-4 .line2-4-box a:hover{
+    color: white;
+}
+.footer .line2 .line2-4 .line2-4-box .a1,
+.footer .line2 .line2-4 .line2-4-box .a2{
+    width: 80px;
+}
+.footer .line2 .line2-4 .line2-4-box a i{
+    display: block;
+    float: left;
+    width: 15px;
+    height: 14px;
+    margin: 7px 7px 0 4px;
+    background: url("../img/vr-ico.png") 0 -175px;
+}
+.footer .line2 .line2-4 .line2-4-box .a1:hover .i1{
+    background: url("../img/vr-ico.png") 0px -232px;
+}
+.footer .line2 .line2-4 .line2-4-box .a2 i{
+    background: url("../img/vr-ico.png") -17px -173px;
+}
+.footer .line2 .line2-4 .line2-4-box .a2:hover .i2{
+    background: url("../img/vr-ico.png") -17px -232px;
+}
+.footer .line2 .line2-4 .line2-4-box .a3 i{
+    width: 18px;
+    background: url("../img/vr-ico.png") -52px -175px;
+}
+.footer .line2 .line2-4 .line2-4-box .a3:hover .i3{
+    background: url("../img/vr-ico.png") -52px -232px;
+}
+.footer .line2 .line2-4 .line2-4-box .a4 i{
+    background: url("../img/vr-ico.png") -35px -175px;
+}
+.footer .line2 .line2-4 .line2-4-box .a4:hover .i4{
+    background: url("../img/vr-ico.png") -35px -232px;
+}
+.footer .line2 .line2-4 .line2-4-box .a5 i{
+    background: url("../img/vr-ico.png") -55px -196px;
+}
+.footer .line2 .line2-4 .line2-4-box .a5:hover .i5{
+    background: url("../img/vr-ico.png") -55px -211px;
+}
+/*footer line3*/
+.footer .line3{
+    width: 1200px;
+    margin: 35px auto 0 auto;
+    color: #666666;
+    height:39px;
+}
+.footer .line3 .line3-img{
+    width: 510px;
+    float: left;
+    height: 39px;
+}
+.footer .line3 .line3-img>a{
+    width: 35px;
+    background:url("../img/nor-mx.png") 0 0;
+    display: block;
+    height: 32px;
+    float: left;
+    margin-top: 7px;
+    margin-right: 20px;
+    position: relative;
+}
+.footer .line3 .line3-img>.line3-img1:hover{
+    background-position: 0 -40px;
+}
+.footer .line3 .line3-img>.line3-img2{
+    width: 65px;
+    background-position: -53px 0;
+}
+.footer .line3 .line3-img>.line3-img2:hover{
+    background-position: -53px -40px;
+}
+.footer .line3 .line3-img>.line3-img3{
+    width: 70px;
+    background-position: -136px 0;
+}
+.footer .line3 .line3-img>.line3-img3:hover{
+    background-position: -136px -40px;
+}
+.footer .line3 .line3-img>.line3-img4{
+    width: 75px;
+    background-position: -227px 0;
+}
+.footer .line3 .line3-img>.line3-img4:hover{
+    background-position: -227px -40px;
+}
+.footer .line3 .line3-img>.line3-img5{
+    width: 75px;
+    background-position: -322px 0;
+}
+.footer .line3 .line3-img>.line3-img5:hover{
+    background-position: -322px -40px;
+}
+.footer .line3 .line3-img>.line3-img6{
+    width: 70px;
+    background-position: -417px 0;
+}
+.footer .line3 .line3-img>.line3-img6:hover{
+    background-position: -417px -40px;
+}
+.footer .line3 .line3-right{
+    float: left;
+    height: 39px;
+    line-height: 39px;
+}
+.footer .line3-right>a{
+    text-decoration: none;
+    color: #666666;
+}
+.footer .line3-right>a:hover{
+    color: white;
+    text-decoration: none;
+}
+/*footer line4*/
+.footer .line4{
+    padding: 25px 0 23px 0;
+    min-height: 34px;
+    color: #666666;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .line4-1,
+.footer .line4-2{
+    height: 22px;
+}
+.footer .line4-1 span,
+.footer .line4-2 span{
+    display: block;
+    width: 60px;
+    float: left;
+}
+.footer .line4-1 ul,
+.footer .line4-2 ul{
+    list-style: none;
+    width: 1090px;
+    height: 16px;
+    overflow: hidden;
+    float: left;
+}
+.footer .line4-1 ul li,
+.footer .line4-2 ul li{
+    float: left;
+    margin-right: 25px;
+    padding-bottom: 5px;
+}
+.footer .line4-1 ul li a,
+.footer .line4-2 ul li a{
+    color: #666666;
+    text-decoration: none;
+}
+.footer .line4-1 ul li a:hover,
+.footer .line4-2 ul li a:hover {
+    color: white;
+}

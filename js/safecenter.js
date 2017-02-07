@@ -1,0 +1,10 @@
+$(function(){
+    $(".safety-item").mouseover(function(){
+        $(this).find(".not-enabled").hide();
+        $(this).find(".hover-status").show();
+    });
+    $(".safety-item").mouseout(function(){
+        $(this).find(".not-enabled").show();
+        $(this).find(".hover-status").hide();
+    });
+});

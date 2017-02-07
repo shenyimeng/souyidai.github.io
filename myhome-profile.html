@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资金概况</title>
+    <link rel="stylesheet" href="css/head.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/myhome-left.css">
+    <link rel="stylesheet" href="css/myhome-profile.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/chart-huan.js"></script>
+    <script src="js/fold.js"></script>
+    <script src="js/myhome-right-tab.js"></script>
+    <script src="js/ZK_Calendar.js"></script>
+</head>
+<body>
+<!--head-->
+<div class="head">
+    <div class="head-top">
+        <div class="head-top-con">
+                <span class="welcome">
+                    您好，欢迎来到搜易贷！
+                    <a href="#" class="welcome-login">[登录]</a>
+                    <a href="#" class="welcome-reg">[免费注册]</a>
+                </span>
+            <ul class="weak-nav">
+                <li><a href="#">手机客户端</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">新手引导</a></li>
+                <li><a href="#">帮助中心</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="head-logo">
+        <img src="img/logo.gif" alt="搜易贷">
+        <div class="login">
+            <a href="#" class="login-btn">登录</a>
+            <a href="#" class="reg-btn">免费注册</a>
+        </div>
+        <ul class="nav">
+            <li><a href="woyaotouzi.html">我要投资</a></li>
+            <li><a href="jiekuan.html">我要借款</a></li>
+            <li><a href="security.html">安全保障</a></li>
+            <li><a href="myhome-profile.html" class="active">我的账户</a></li>
+        </ul>
+    </div>
+</div>
+<!--end head-->
+<!--面包屑-->
+<div class="bread-crumbs">
+    <a href="index.html">我的账户</a>
+    <i>&nbsp;</i>
+    <a href="woyaotouzi.html">我的资金</a>
+    <i>&nbsp;</i>
+    <span>资金概况</span>
+</div>
+<!--end 面包屑-->
+
+<!--container-->
+<div class="container">
+    <div class="container-box">
+        <div class="con-left">
+            <div class="left-item">
+                <span class="left-item-title"><i></i>我的资金</span>
+                <ul>
+                    <li><a href="myhome-profile.html" class="active"><i></i>资金概况</a></li>
+                    <li><a href="financial-details.html"><i></i>资金明细</a></li>
+                    <li><a href="recharge.html"><i></i>充值</a></li>
+                    <li><a href="quxian.html"><i></i>提现</a></li>
+                </ul>
+            </div>
+            <div class="left-item">
+                <span class="left-item-title">我的投资<i></i></span>
+                <ul>
+                    <li><a href="#"><i></i>定期宝</a></li>
+                    <li><a href="investment.html"><i></i>投资列表</a></li>
+                    <li><a href="zhaiquanzhuanrang.html"><i></i>债权转让</a></li>
+                    <li><a href="#"><i></i>月薪宝</a></li>
+                </ul>
+            </div>
+            <div class="left-item">
+                <span class="left-item-title">我的借款<i></i></span>
+                <ul>
+                    <li><a href="borrow-list.html"><i></i>借款列表</a></li>
+                    <li><a href="repay.html"><i></i>还款</a></li>
+                </ul>
+            </div>
+            <div class="left-item">
+                <span class="left-item-title">我的账户<i></i></span>
+                <ul>
+                    <li><a href="message-box.html"><i></i>消息箱</a></li>
+                    <li><a href="safecenter.html"><i></i>安全中心</a></li>
+                    <li><a href="#"><i></i>取现银行卡</a></li>
+                    <li><a href="red-envelopes.html"><i></i>红包</a></li>
+                    <li><a href="jiaxi.html"><i></i>加息券</a></li>
+                    <li><a href="jifen.html"><i></i>易积分</a></li>
+                    <li><a href="invite-friends.html"><i></i>邀请好友</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="con-right">
+            <div class="right-personal">
+                <div class="personal-box">
+                    <div class="personal-head">
+                        <a href="#">
+                            <img src="img/myhome-head.jpg">
+                            <span>上传头像</span>
+                        </a>
+                    </div>
+                    <div class="personal-infor">
+                        <span>159*****624，您好！</span>
+                        <div class="infor-box1">
+                            <span class="sign-btn">签到送积分</span>
+                            <div class="sign-count">
+                                <span></span>
+                                <i>1</i>
+                            </div>
+                        </div>
+                        <div class="infor-box2">
+                            <span class="lasttime">上次登录时间 2016-07-25 17:22:57</span>
+                            <ul class="survey-list">
+                                <li class="survey-list1"><a href="#" title="手机安全认证"></a></li>
+                                <li class="survey-list2"><a href="#" title="实名安全认证"></a></li>
+                                <li class="survey-list3"><a href="#" title="邮箱安全认证"></a></li>
+                                <li class="survey-list4"><a href="#" title="安全交易密码"></a></li>
+                                <li class="survey-list5"><a href="#" title="安全保护问题"></a></li>
+                                <li class="survey-list6"><a href="#" title="安全风险评估"></a></li>
+                            </ul>
+                            <span class="save">安全等级： 低</span>
+                            <input type="button" value="立即提升">
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-personal">
+                    <div class="show">
+                        <a href="#">取现</a>
+                    </div>
+                    <div class="recharge">
+                        <input type="button" value="充值">
+                    </div>
+                    <div class="aside">
+                        <span>净投入：0.00元</span>
+                        <span class="line"></span>
+                        <span>累计充值：0.00元</span>
+                        <span class="line"></span>
+                        <span>累计取现：0.00元</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="survey-box">
+                <div class="myhome-right-head">
+                    <span class="current">投资账户</span>
+                    <span>借款账户</span>
+                    <div class="status">
+                        <a href="#">
+                            <em></em>
+                            <span></span>
+                        </a>
+                        <a href="#">
+                            <i></i>
+                            <span></span>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="myhome-right-con">
+                    <!--投资账户-->
+                    <div class="invest-box" style="display: block">
+                        <div class="invest-title">
+                            <span class="name">我的资产</span>
+                            <span class="unit">单位：元</span>
+                        </div>
+                        <div class="invest-chart">
+                            <div class="chart-box">
+                                <div class="chart-huan" id="chart-huan" style="width: 190px;height: 190px;margin-left: 15px"></div>
+                                <div class="current-assets">
+                                    <span>当前资产价值<i></i></span>
+                                    <span class="num">0.00</span>
+                                </div>
+                            </div>
+                            <div class="invest-sums">
+                                <ul>
+                                    <li class="invest-sum1">
+                                        <span class="name"><i></i>可用金额<a href="#"></a></span>
+                                        <a href="#" class="value">0.00</a>
+                                    </li>
+                                    <li class="invest-sum2">
+                                        <span class="name"><i></i>冻结金额<a href="#"></a></span>
+                                        <a href="#" class="value">0.00</a>
+                                    </li>
+                                    <li class="invest-sum3">
+                                        <span class="name"><i></i>待收本金<a href="#"></a></span>
+                                        <a href="#" class="value">0.00</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="invest-integral">
+                                <ul>
+                                    <li class="invest-integral1">
+                                        <a href="#"><i></i>2个红包，共60.00元</a>
+                                    </li>
+                                    <li class="invest-integral2">
+                                        <a href="#"><i></i>一张加息券</a><span></span>
+                                    </li>
+                                    <li class="invest-integral3">
+                                        <a href="#"><i></i>5易积分</a>
+                                    </li>
+                                    <li class="survey-integral4">
+                                        <a href="#"><i></i>已邀请0位好友</a><a class="to-yq" href="#">立即邀请</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--<div class="invest-title">
+                            <span class="name">我的收益</span>
+                            <span class="unit">单位：元</span>
+                        </div>
+                        <div class="invest-diagram"></div>-->
+                        <div class="invest-title">
+                            <span class="name">我的投资</span>
+                            <span class="unit">单位：元</span>
+                        </div>
+                        <div class="invest-myinvest">
+                            <a href="#" class="invest-limp">
+                                <span class="iconbox">
+                                    <img src="img/myhome-invest-icon1.png">
+                                    <span>定期宝</span>
+                                </span>
+                                <span class="numbox">
+                                    <span class="name">预计待收回款（元）</span>
+                                    <span class="value">0.00</span>
+                                </span>
+                                <span class="numbox">
+                                    <span class="name">预期年化收益率</span>
+                                    <span class="value">0.00%</span>
+                                </span>
+                            </a>
+                            <a href="#" class="invest-limp">
+                                <span class="iconbox">
+                                    <img src="img/myhome-invest-icon2.png">
+                                    <span>直投项目</span>
+                                </span>
+                                <span class="numbox">
+                                    <span class="name">预计待收回款（元）</span>
+                                    <span class="value">0.00</span>
+                                </span>
+                                <span class="numbox">
+                                    <span class="name">预期年化收益率</span>
+                                    <span class="value">0.00%</span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="invest-title">
+                            <span class="name">代收回款日历</span>
+                            <span class="unit">单位：元</span>
+                        </div>
+                        <div class="invest-control">
+                            <select>
+                                <option><span>2016-08</span> 待收回款&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>0.00</span></option>
+                            </select>
+                        </div>
+                        <div class="invest-calender">
+                            <div id="myCalendar"></div>
+                        </div>
+                    </div>
+                    <!--end 投资账户-->
+                    <!--借款账户-->
+                    <div class="borrow-box" style="display: none">
+                        <!--无借款-->
+                        <div class="no-borrow" style="display: block">
+                            <div class="borrow-guide">
+                                <img src="img/myhome-borrow-img.png">
+                            <span class="case">
+                                需要借款时 搜易贷来帮您<br>
+                                多种借款产品助您筹款
+                            </span>
+                            </div>
+                            <div class="borrow-title">房易贷借款</div>
+                            <div class="borrow-credit">
+                                <a href="#" class="borrow-credit1">
+                                    <span class="pic"></span>
+                                    <span class="name">赎楼贷</span>
+                                    <span class="subname">解抵押，助卖房</span>
+                                </a>
+                                <a href="#" class="borrow-credit2">
+                                    <span class="pic"></span>
+                                    <span class="name">卖房贷</span>
+                                    <span class="subname">短期垫资，优先用款</span>
+                                </a>
+                                <a href="#" class="borrow-credit3">
+                                    <span class="pic"></span>
+                                    <span class="name">抵押消费贷</span>
+                                    <span class="subname">房屋抵押好周转</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!--end 无借款-->
+                        <!--有借款-->
+                        <div class="borrowing" style="display: none">
+                            <!--borrowing-surface-->
+                            <div class="borrowing-surface">
+                                <div class="tab-applying current">正在申请</div>
+                                <div class="tab-gettingback">正在还款</div>
+                                <div class="tab-settled">已经结清</div>
+                                <div class="tab-failed">失效申请</div>
+                                <a href="#"><i></i>借款列表</a>
+                            </div>
+                            <!--borrowing-con-->
+                            <div class="borrowing-con">
+
+                            </div>
+                            <!--borrowing-more-->
+                            <div class="borrowing-more">
+                                <div class="borrow-title">房易贷借款</div>
+                                <div class="borrow-credit">
+                                    <a href="#" class="borrow-credit1">
+                                        <span class="pic"></span>
+                                        <span class="name">赎楼贷</span>
+                                        <span class="subname">解抵押，助卖房</span>
+                                    </a>
+                                    <a href="#" class="borrow-credit2">
+                                        <span class="pic"></span>
+                                        <span class="name">卖房贷</span>
+                                        <span class="subname">短期垫资，优先用款</span>
+                                    </a>
+                                    <a href="#" class="borrow-credit3">
+                                        <span class="pic"></span>
+                                        <span class="name">抵押消费贷</span>
+                                        <span class="subname">房屋抵押好周转</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end 有借款-->
+                    </div>
+                    <!--end 借款账户-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end container-->
+<!--footer-->
+<div class="footer">
+    <div class="line1">
+        <ul>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">加入我们</a></li>
+            <li><a href="#">媒体报道</a></li>
+            <li><a href="#">安全保障</a></li>
+            <li><a href="#">新手引导</a></li>
+            <li><a href="#">产品介绍</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">系统公告</a></li>
+            <li><a href="#">法律法规</a></li>
+            <li><a href="#">手机客户端</a></li>
+        </ul>
+    </div>
+    <div class="line2">
+        <div class="line2-1">
+            <a href="#"><i class="i1">&nbsp;</i>信易贷合作</a>
+            <a href="#"><i>&nbsp;</i>开发商合作</a>
+        </div>
+        <div class="line2-2">
+            <div class="line2-2-box">
+                <a href="#"><i class="i-iphone">&nbsp;</i>苹果客户端下载</a>
+                <a href="#"><i class="i-android">&nbsp;</i>安卓客户端下载</a>
+                <a href="#"><i class="i-browser">&nbsp;</i>手机浏览器访问</a>
+                <div>
+                    <div class="code code1">
+                        <img src="img/code1.jpg">
+                        <span></span>
+                    </div>
+                    <div class="code code2">
+                        <img src="img/code2.jpg">
+                        <span></span>
+                    </div>
+                    <div class="code code3">
+                        <img src="img/code3.jpg">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line2-3">
+            <div class="line2-3-box">
+                <div class="line2-3-top">
+                    <a href="#" class="line2-3-top1"></a>
+                    <a href="#" class="line2-3-top2"></a>
+                </div>
+                    <span>搜易贷与国际著名的征信机构Experian和FICO云决<br>
+                        策平台合作，使用特别定制的评分卡与风控模型</span>
+            </div>
+        </div>
+        <div class="line2-4">
+            <span class="time">服务时间：工作日9:00 - 18:00</span>
+            <span class="tel">4000-168-866</span>
+            <div class="line2-4-box">
+                <a href="#" class="a1"><i class="i1">&nbsp;</i>在线客服</a>
+                <a href="#" class="a2"><i class="i2">&nbsp;</i>客服邮箱</a>
+                <a href="#" class="a3"><i class="i3">&nbsp;</i></a>
+                <a href="#" class="a4"><i class="i4">&nbsp;</i></a>
+                <a href="#" class="a5"><i class="i5">&nbsp;</i></a>
+            </div>
+        </div>
+    </div>
+    <div class="line3">
+        <div class="line3-img">
+            <a href="#" class="line3-img1"></a>
+            <a href="#" class="line3-img2"></a>
+            <a href="#" class="line3-img3"></a>
+            <a href="#" class="line3-img4"></a>
+            <a href="#" class="line3-img5"></a>
+            <a href="#" class="line3-img6"></a>
+        </div>
+        <div class="line3-right">
+            <span>搜易贷公司 版权所有 © 2014-2016 souyidai.com, All Rights Reserved</span>
+            <a href="#">京ICP备14032951号-1</a>
+            <span> | 投资有风险 理财需谨慎</span>
+        </div>
+    </div>
+    <div class="line4">
+        <div class="line4-1">
+            <span>网站链接:</span>
+            <ul>
+                <li><a href="#">p2p理财公司排名</a></li>
+                <li><a href="#">宁波银行理财产品</a></li>
+                <li><a href="#">最新理财产品排行</a></li>
+                <li><a href="#">月收入5000如何理财</a></li>
+                <li><a href="#">目前最好的理财方式</a></li>
+                <li><a href="#">月入3000如何理财</a></li>
+                <li><a href="#">工薪族如何理财</a></li>
+                <li><a href="#">搜易贷</a></li>
+            </ul>
+        </div>
+        <div class="line4-2">
+            <span>友情链接:</span>
+            <ul>
+                <li><a href="#">搜狐焦点</a></li>
+                <li><a href="#">搜狐理财</a></li>
+                <li><a href="#">微钱包</a></li>
+                <li><a href="#">和讯理财</a></li>
+                <li><a href="#">腾讯理财</a></li>
+                <li><a href="#">凤凰理财</a></li>
+                <li><a href="#">网贷天眼</a></li>
+                <li><a href="#">可可黄金网</a></li>
+                <li><a href="#">p2p理财平台</a></li>
+                <li><a href="#">上海房地产</a></li>
+                <li><a href="#">阳光私募基金</a></li>
+                <li><a href="#">小额贷款</a></li>
+                <li><a href="#">保险网</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--end footer-->
+</body>
+</html>
+<script type="text/javascript">
+    ZK_Calendar.init("myCalendar",{autoFull:true});
+</script>

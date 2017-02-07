@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft Yahei',serif;
+    font-size: 12px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #ffffff;
+}
+.container{
+    width: 1200px;
+    margin: 20px auto 30px auto;
+    overflow: hidden;
+}
+.con-left{
+    width: 960px;
+    height: 550px;
+    float: left;
+}
+.con-left a{
+    display: block;
+    width: 960px;
+    height: 550px;
+    float: left;
+    padding-top: 10px;
+    background: url("../img/jiekuan-banner1.gif") no-repeat;
+}
+.con-left2 a{
+    background: url("../img/jiekuan-banner2.gif") no-repeat;
+}
+.con-left3 a{
+    background: url("../img/jiekuan-banner3.gif") no-repeat;
+}
+.con-left4 a{
+    background: url("../img/jiekuan-banner4.gif") no-repeat;
+}
+.con-left h1{
+    line-height: 60px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: #333333;
+    font-weight: normal;
+}
+.con-left h1 span{
+    line-height: 60px;
+    font-size: 30px;
+    color: #fb5f5f;
+    font-weight: normal;
+}
+.con-left2 h1 span{
+    color: #80cc51;
+}
+.con-left3 h1 span{
+    color: #ffb324;
+}
+.con-left4 h1 span{
+    color: #64b2e9;
+}
+.con-left p{
+    margin-left: 40px;
+    color: #333333;
+    font-size: 18px;
+    line-height: 30px;
+    width: 520px;
+}
+.con-left3 p{
+    width: 580px;
+}
+/*con-right*/
+.con-right{
+    width: 230px;
+    float: right;
+}
+.con-right a{
+    display: block;
+    width: 230px;
+    height: 130px;
+    margin-bottom: 10px;
+}
+.con-right a h2{
+    padding-top: 35px;
+    padding-left: 88px;
+    font-size: 24px;
+    color: #fff;
+    display: block;
+    font-weight: normal;
+}
+.con-right a span{
+    font-size: 14px;
+    color: #fff;
+    padding-left: 88px;
+    line-height: 30px;
+}
+.con-right1{
+    background: url("../img/jiekuan-r1.gif") no-repeat;
+}
+.con-right1.active{
+    background: url("../img/jiekuan-r1-hover.gif") no-repeat;
+}
+.con-right2{
+    background: url("../img/jiekuan-r2.gif") no-repeat;
+}
+.con-right2.active{
+    background: url("../img/jiekuan-r2-hover.gif") no-repeat;
+}
+.con-right3{
+    background: url("../img/jiekuan-r3.gif") no-repeat;
+}
+.con-right3.active{
+    background: url("../img/jiekuan-r3-hover.gif") no-repeat;
+}
+.con-right4{
+    background: url("../img/jiekuan-r4.gif") no-repeat;
+}
+.con-right4.active{
+    background: url("../img/jiekuan-r4-hover.gif") no-repeat;
+}
